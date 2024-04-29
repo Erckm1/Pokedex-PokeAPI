@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+    <html lang="en"> 
+    <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    </head>
+    <body>
+        <div class="shiny">
+            <p class="shinyText">Shiny</p>
+            <hr class="shinHR">
+            <br>
+            <img id="shinyImg">
+            <div class="hidenrect"></div>
+        </div>
+        <div class="rect">
+            <p class="altura" id="altu">Altura:</p>
+            <p class="peso" id="pso">Peso:</p>
+            <hr class="shinHR2">
+            <img id="pokeImg">
+            <p class="sndTitle">Reproducir sonido del Pokemon</p>
+            <div class="hiderect"></div>
+        </div>
+        <div>
+            <form class="aud">
+                <button type="button" onclick="reproducir()">Reproducir</button> 
+            </form>
+        </div>
+        <div class="line"></div>
+        <div class="circle" id="fondobal">
+            <div class="balsup"></div>
+            <div class="baline"></div>
+            <div class="blackcir"></div>
+            <div class="blancir"></div>
+            <div class="busqueda">
+                <form class="frm" id="formu"> 
+                    <label for="fname">Pokemon:</label><br> 
+                    <input type="text" id="poke" name="poke"><br> 
+                    <button type="button" onclick="getPoke()">Buscar</button> 
+                </form>
+            </div>
+        </div>
+        <div id="numero"><p class="noText">NO. Pokedex:</p></div>
+    <script src="index.js"></script> </body> </html>
+    </body>
+    </html>
+    

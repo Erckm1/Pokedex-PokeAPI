@@ -1,0 +1,194 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: cursive;
+    font-size: 20px;
+ } 
+
+ body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+    background-color: gray;
+} 
+#pokemon{ 
+    align-items: center;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.frm{
+    background-color: skyblue;
+    height: 60px;
+    width: 150px;
+    border-radius:0.5rem;
+    z-index: 1;
+}
+
+
+.aud{
+    position: absolute;
+    top: 65%;
+    left: 68%;
+    z-index: 5;
+}
+.sndTitle{
+position: absolute;
+top: 70%;
+left: 40%;
+}
+
+#poke{
+   width: 140px;
+}
+
+#pokeImg{
+    position: absolute;
+    left: 40%;
+ }
+
+.busqueda{
+    padding-left: 73px;
+    padding-top: 20px;
+    z-index: 2;
+}
+
+.circle{
+    position: absolute;
+    left: 35%;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.line{
+    position: absolute;
+    left: 36%;
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    z-index: 1;  
+}
+
+.rect{
+    position: absolute;
+    left: 46.5%;
+    top: 26.5%;
+    background-color: skyblue;
+    height: 295px;
+    width: 600px;
+    border-radius: 5.5rem;
+    z-index: -1;
+}
+
+.balsup{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 300px; 
+    height: 150px;
+    background: red;
+    -moz-border-radius: 150px 150px 0 0;
+    -webkit-border-radius: 150px 150px 0 0;
+    border-radius: 150px 150px 0 0;
+    z-index: -1;
+}
+
+.baline{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    height: 20px;
+    width: 300px;
+    background-color: black;
+    z-index: 2;
+}
+
+#numero{
+    position: absolute;
+    top: 75%;
+    left: 52%;
+    height: 20px;
+    width: 450px;
+    border-radius: 5.5rem;
+    background-color: skyblue;
+    z-index: 2;
+}
+
+.noText{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    left: 10%;
+    font-family: cursive;
+}
+
+.blackcir{
+    position: absolute;
+    left: 40%;
+    top: 44%;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 3;
+}
+.altura{
+    position: absolute;
+    left: 20%;
+}
+
+.peso{
+    position: absolute;
+    left: 70%;
+}
+.blancir{
+    position: absolute;
+    left: 45%;
+    top: 49%;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 3;
+}
+.shinHR{
+    position: absolute;
+    left: 35px;
+    width: 520px;
+    height: 2px;
+}
+.shinHR2{
+    position: absolute;
+    top: 10%;
+    left: 55px;
+    width: 520px;
+    height: 2px;
+}
+.shiny{
+    position: absolute;
+    left: 1%;
+    top: 12.5%;
+    background-color: skyblue;
+    height: 295px;
+    width: 600px;
+    border-radius: 5.5rem;
+    z-index: -1;
+}
+.hidenrect{
+    position: absolute;
+    left: 75.5%;
+    top: 26.8%;
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    z-index: 1; 
+}
